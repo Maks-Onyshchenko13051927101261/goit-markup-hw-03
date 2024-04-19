@@ -85,17 +85,51 @@ section {
 .conteiner .adress-info {
     display: flex;
     gap: 40px;
- }
- .adress-info .contacts-info {
-     font-weight: 400;
-     font-size: 16px;
-     line-height: 1.5;
-     letter-spacing: 0.02em;
-     font-style: normal;
-     color: #434455;
- }
- .contacts-info .contacts-link:hover,
- .contacts-info .contacts-link:focus {
-     color: #404bbf;
- }
- /*================HERO================*/
+}
+.adress-info .contacts-info {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-style: normal;
+    color: #434455;
+}
+.contacts-info .contacts-link:hover,
+.contacts-info .contacts-link:focus {
+    color: #404bbf;
+}
+/*================HERO================*/
+/*.service-solutions .conteiner {
+    display: flex;
+    gap: 48px;
+}*/
+
+
+
+
+/*================ADVANTAGES================*/
+.advantages-title {
+    margin-bottom: 72px;
+}
+.advantages-list {
+    display: flex;
+    gap: 24px;
+}
+
+/*================TEAM================*/
+.our-team-title {
+    margin-bottom: 72px;
+}
+.team-list {
+    display: flex;
+    gap: 24px;
+}
+/*================OUR PORTFOLIO================*/
+.portfolio-title {
+    margin-bottom: 72px;
+}
+.portfolio-list {
+    display: flex;
+    gap: 24px;
+}
+/*================FOOTER================*/
