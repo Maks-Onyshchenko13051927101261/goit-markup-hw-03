@@ -7,9 +7,12 @@ body {
 a {
     text-decoration: none;
     color: inherit;
+    display: block;
 }
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 ul,
 ol {
@@ -99,18 +102,31 @@ section {
     color: #404bbf;
 }
 /*================HERO================*/
-.service-solutions .conteiner{
-   width: 1440px;
-   height: 600px;
+.service-solutions .conteiner {
+    width: 1440px;
+    height: 600px;
+    background: #2e2f42;    
 }
 .solution-info {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
     margin-top: 188px;
     margin-bottom: 48px;
     margin-left: 316px;
     margin-right: 316px;
-    
 }
 .service-button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background: #4d5ae5;
     border-radius: 4px;
     padding: 16px 32px;
     width: 169px;
@@ -118,45 +134,142 @@ section {
     margin-left: 480px;
     margin-right: 480px;
 }
-
-
-
+.service-solutions .service-button:hover,
+.service-solutions .service-button:focus {
+    background-color: #404BBF
+}
 /*================ADVANTAGES================*/
 .advantages-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
     margin-bottom: 72px;
 }
 .advantages-list {
     display: flex;
     gap: 24px;
 }
-
+.advantages-list-item .advantages-list-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.advantages-list-item .advantages-list-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
 /*================TEAM================*/
+.our-team {
+    background-color: #f4f4fd;
+}
 .our-team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
     margin-bottom: 72px;
 }
 .team-list {
     display: flex;
     gap: 24px;
+}
+..team-list .team-list-item{
     border-radius: 0 0 4px 4px;
     padding: 0px 0px 32px 0px;
     width: 264px;
     height: 380px;
+    background-color: #fff;
+}
+.team-list-item .team-list-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.team-list-item .team-list-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
 }
 /*================OUR PORTFOLIO================*/
-
 .portfolio-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42; 
     margin-bottom: 72px;
-    flex-wrap: wrap;
-}
+    }
 .portfolio-list {
     display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.portfolio-list-item .portfolio-list-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.portfolio-list-item .portfolio-list-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 /*================FOOTER================*/
-.main-footer {
+.main-footer .conteiner {
     width: 1440px;
     height: 312px;
-}
-.nain-footer .conteiner {
+    background: #2e2f42;
     padding-top: 100px;
     padding-bottom: 100px;
+    padding-right: 864px;
+}
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-bottom: 16px;
+}
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
+.accent-footer {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;
 }
