@@ -184,7 +184,7 @@ section {
     display: flex;
     gap: 24px;
 }
-..team-list .team-list-item{
+.team-list .team-list-item{
     border-radius: 0 0 4px 4px;
     padding: 0px 0px 32px 0px;
     width: 264px;
