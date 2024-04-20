@@ -7,12 +7,10 @@ body {
 a {
     text-decoration: none;
     color: inherit;
-    display: block;
 }
 img {
     display: block;
     max-width: 100%;
-    height: auto;
 }
 ul,
 ol {
@@ -21,16 +19,18 @@ ol {
     margin-bottom: 0;
     padding-left: 0;
 }
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     margin-top: 0;
     margin-bottom: 0;
 }
 button {
     cursor: pointer;
-}
-section {
-    padding-top: 120px;
-    padding-bottom: 120px;
 }
 .conteiner {
     max-width: 1158px;
@@ -102,9 +102,10 @@ section {
     color: #404bbf;
 }
 /*================HERO================*/
-.service-solutions .conteiner {
-    width: 1440px;
-    height: 600px;
+.service-solutions {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
     background: #2e2f42;    
 }
 .solution-info {
@@ -114,10 +115,9 @@ section {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    margin-top: 188px;
-    margin-bottom: 48px;
-    margin-left: 316px;
-    margin-right: 316px;
+    padding-top: 188px;
+    padding-left: 316px;
+    padding-right: 316px;
 }
 .service-button {
     font-family: 'Roboto', sans-serif;
@@ -129,10 +129,12 @@ section {
     background: #4d5ae5;
     border-radius: 4px;
     padding: 16px 32px;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
-    margin-left: 480px;
-    margin-right: 480px;
+    margin-top: 48px;
+    margin-left: 465px;
+    margin-right: 465px;
+    margin-bottom: 188px;
 }
 .service-solutions .service-button:hover,
 .service-solutions .service-button:focus {
@@ -146,6 +148,7 @@ section {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    padding-top: 120px;
     margin-bottom: 72px;
 }
 .advantages-list {
@@ -158,6 +161,7 @@ section {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-bottom: 8px;
 }
 .advantages-list-item .advantages-list-text {
     font-weight: 400;
@@ -165,6 +169,7 @@ section {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    padding-bottom: 120px;
 }
 /*================TEAM================*/
 .our-team {
@@ -178,29 +183,34 @@ section {
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
-    margin-bottom: 72px;
+    padding-top: 120px;
+    padding-bottom: 72px;
 }
 .team-list {
     display: flex;
     gap: 24px;
-}
-.team-list .team-list-item{
+}  
+.team-list-item{
     border-radius: 0 0 4px 4px;
     padding: 0px 0px 32px 0px;
     width: 264px;
     height: 380px;
     background-color: #fff;
+    margin-bottom: 120px;
 }
-.team-list-item .team-list-title {
+.team-title-text {
+    margin: 32px 16px;
+}
+.team-list-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    padding-bottom: 8px;
 }
-
-.team-list-item .team-list-text {
+.team-list-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -218,34 +228,38 @@ section {
     text-transform: capitalize;
     color: #2e2f42; 
     margin-bottom: 72px;
-    }
+}
 .portfolio-list {
     display: flex;
-    flex-wrap: wrap;
     gap: 24px;
+    flex-wrap: wrap;
+    padding-bottom: 120px;
 }
-.portfolio-list-item .portfolio-list-title {
+.portfolio-list-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-left: 16px;
+    padding-top: 32px ;
 }
-.portfolio-list-item .portfolio-list-text {
+.portfolio-list-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    padding-left: 16px;
+    padding-top: 8px;
 }
 /*================FOOTER================*/
-.main-footer .conteiner {
-    width: 1440px;
-    height: 312px;
+.main-footer {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
     background: #2e2f42;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-right: 864px;
+    
 }
 .footer-logo {
     font-family: "Raleway", sans-serif;
@@ -263,6 +277,7 @@ section {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    width: 264px;
 }
 .accent-footer {
     font-family: "Raleway", sans-serif;
@@ -272,4 +287,8 @@ section {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
+}
+.main-footer .conteiner {
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
