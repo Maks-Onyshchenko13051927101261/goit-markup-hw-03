@@ -39,6 +39,10 @@ button {
     margin-left: auto;
     margin-right: auto;
 }
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 /*================HEDER================*/
 .main-heder .conteiner{
     background: #fff;
@@ -102,7 +106,7 @@ button {
     color: #404bbf;
 }
 /*================HERO================*/
-.service-solutions {
+.hero-section {
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
@@ -115,7 +119,6 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    padding-top: 188px;
     padding-left: 316px;
     padding-right: 316px;
 }
@@ -134,7 +137,6 @@ button {
     margin-top: 48px;
     margin-left: 465px;
     margin-right: 465px;
-    margin-bottom: 188px;
 }
 .service-solutions .service-button:hover,
 .service-solutions .service-button:focus {
@@ -148,28 +150,26 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    padding-top: 120px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 .advantages-list {
     display: flex;
     gap: 24px;
 }
-.advantages-list-item .advantages-list-title {
+.advantages-list-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
-.advantages-list-item .advantages-list-text {
+.advantages-list-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    padding-bottom: 120px;
 }
 /*================TEAM================*/
 .our-team {
@@ -183,8 +183,7 @@ button {
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
-    padding-top: 120px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 .team-list {
     display: flex;
@@ -196,7 +195,6 @@ button {
     width: 264px;
     height: 380px;
     background-color: #fff;
-    margin-bottom: 120px;
 }
 .team-title-text {
     margin: 32px 16px;
@@ -208,7 +206,7 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 .team-list-text {
     font-weight: 400;
@@ -227,14 +225,12 @@ button {
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
-    padding-top: 120px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 .portfolio-list {
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
-    padding-bottom: 120px;
 }
 .portfolio-list-title {
     font-weight: 500;
