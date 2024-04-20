@@ -149,7 +149,7 @@ button {
     text-align: center;
     color: #2e2f42;
     padding-top: 120px;
-    margin-bottom: 72px;
+    padding-bottom: 72px;
 }
 .advantages-list {
     display: flex;
@@ -226,8 +226,9 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
-    color: #2e2f42; 
-    margin-bottom: 72px;
+    color: #2e2f42;
+    padding-top: 120px;
+    padding-bottom: 72px;
 }
 .portfolio-list {
     display: flex;
