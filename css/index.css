@@ -156,6 +156,9 @@ button {
     display: flex;
     gap: 24px;
 }
+.advantages-list-item {
+    width: calc((100% - 72px)/4);
+}
 .advantages-list-title {
     font-weight: 500;
     font-size: 20px;
@@ -229,7 +232,7 @@ button {
 }
 .portfolio-list {
     display: flex;
-    gap: 24px;
+    gap: 48px 24px;
     flex-wrap: wrap;
 }
 .portfolio-list-title {
