@@ -122,15 +122,15 @@ button {
   padding: 188px 0;
 }
 .solution-info {
-  min-width: 496px;
+  max-width: 496px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  padding-left: 316px;
-  padding-right: 316px;
+  margin-left: 316px;
+  margin-left: 316px;
 }
 .service-button {
   border: none;
@@ -225,7 +225,7 @@ button {
   background-color: #fff;
 }
 .team-title-text {
-  margin: 32px 16px;
+  padding: 32px 0;
 }
 .team-list-title {
   font-weight: 500;
@@ -279,9 +279,7 @@ button {
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 16px;
+  padding: 32px 16px;
   width: 360px;
   height: 120px;
 }
